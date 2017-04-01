@@ -17,8 +17,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:textDirection="anyRtl"
     android:background="@color/tan_background"
     android:orientation="vertical"
+
     tools:context="com.example.android.miwok.MainActivity">
 
     <TextView
@@ -30,6 +32,7 @@
     <TextView
         android:id="@+id/two"
         style="@style/CategoryStyle"
+        android:textDirection="anyRtl"
         android:background="@color/category_family"
         android:text="Shifa Duas #1 to #20" />
 

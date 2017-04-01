@@ -26,12 +26,12 @@ public class Word {
 
     /** Miwok translation for the word */
     private String translation;
-    private String ref;
 
-    public Word(String arabic, String translation, String ref) {
+
+    public Word(String arabic, String translation) {
         this.arabic = arabic;
         this.translation = translation;
-        this.ref = ref;
+
     }
 
     /**
@@ -53,7 +53,5 @@ public class Word {
         return translation;
     }
 
-    public String getRef() {
-        return ref;
-    }
+
 }
